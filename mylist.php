@@ -16,7 +16,7 @@
   <h2>My List</h2>
 
   <div class="collection myList">
-    <a href="details.php?id=0" class="collection__item" style="background-image: url('https://www.manners.nl/wp-content/uploads/2020/04/Tiger-King-Netflix-1.jpg)"></a>
+    <a href="details.php?id=0" class="collection__item" style="background-image: url('https://www.manners.nl/wp-content/uploads/2020/04/Tiger-King-Netflix-1.jpg')"></a>
   </div>
   
 </div>
