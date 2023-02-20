@@ -31,7 +31,7 @@
 		],
 		[
 			"title"		=>	"Fauda",
-			"poster" 	=>	"https://cdn-static.sidereel.com/tv_shows/60482/giant_2x/MV5BMTk2OTAyOTYtZDFkYi00ZjBjLTgyZTMtODJjYzk1NjBhM2NmXkEyXkFqcGdeQXVyMjMyMzI4MzY_._V1_.jpg"
+			"poster" 	=>	"https://d2iltjk184xms5.cloudfront.net/uploads/photo/file/324644/small_18b52a4b39ed6c83ac5d8bc03b7e7369-fauda-netflix.jpg"
 		],
 
 	];
