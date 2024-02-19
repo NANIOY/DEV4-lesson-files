@@ -14,7 +14,7 @@
   
   <div class="collection">
     
-    <a href="details.php?id=1" class="collection__item" style="background-image: url('https://www.manners.nl/wp-content/uploads/2020/04/Tiger-King-Netflix-1.jpg')">
+    <a href="details.php?id=1" class="collection__item" style="background-image: url('https://upload.wikimedia.org/wikipedia/en/1/14/Tiger_King%2C_Murder%2C_Mayhem_and_Madness_publicity_image.jpg')">
     </a>
    
   </div>
