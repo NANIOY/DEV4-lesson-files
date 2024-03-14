@@ -1,4 +1,29 @@
-<?php 
+<?php
+/*
+  if(!isset($_COOKIE['loggedIn'])) {
+   header("Location: login.php");
+  } else {
+    $cookie = $_COOKIE['loggedIn'];
+    
+    $frags = explode(",", $cookie);
+    $salt = "g4f561dbfg4b89sb9dq1f8ù=$:";
+    if(md5($frags[0].$salt) === $frags[1]) {
+      // cookie is valid
+    } else {
+      header("Location: login.php");
+    }
+  }
+*/
+
+  session_start();
+  if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {
+
+  } else {
+    die('NO SESSION'); // 
+    // exit('NO SESSION'); // exit is the same as die
+  }
+
+  include_once("data.inc.php");
 
 ?><!DOCTYPE html>
 <html lang="en">
@@ -13,9 +38,10 @@
   <?php include_once("nav.inc.php"); ?>
   
   <div class="collection">
-    
-    <a href="details.php?id=1" class="collection__item" style="background-image: url('https://upload.wikimedia.org/wikipedia/en/1/14/Tiger_King%2C_Murder%2C_Mayhem_and_Madness_publicity_image.jpg')">
+    <?php foreach ($collection as $key => $c): ?>
+    <a href="details.php?id=<?php echo $key; ?>" class="collection__item" style="background-image: url('<?php echo $c['poster']; ?>')">
     </a>
+    <?php endforeach; ?>
    
   </div>
   
